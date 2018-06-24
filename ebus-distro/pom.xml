@@ -8,6 +8,27 @@
     <version>0.9.18-SNAPSHOT</version>
     <packaging>kar</packaging>
 
+    <organization>
+        <name>Christian Sowada</name>
+        <url>http://www.cs-dev.de</url>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>Eclipse Public License</name>
+            <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <email>git@cs-dev.de</email>
+            <name>Christian Sowada</name>
+            <url>https://github.com/csowada</url>
+            <id>csowada</id>
+        </developer>
+    </developers>
+
     <build>
         <plugins>
             <plugin>
