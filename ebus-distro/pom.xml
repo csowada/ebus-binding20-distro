@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.openhab.binding.ebus</groupId>
-    <artifactId>ebus-distro</artifactId>
-    <version>0.9.18-SNAPSHOT</version>
+    <artifactId>org.openhab.binding.ebus</artifactId>
+    <version>2.4.0.21</version>
     <packaging>kar</packaging>
 
     <organization>
