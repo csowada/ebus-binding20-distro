@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+
+    <feature name="openhab-binding-ebus" version="${project.version}">
+        <bundle start-level="80">mvn:org.openhab.binding/org.openhab.binding.ebus/2.4.0-SNAPSHOT</bundle>
+        <bundle>mvn:de.cs-dev.ebus/ebus-core/0.9.18-SNAPSHOT</bundle>
+        <bundle>mvn:de.cs-dev.ebus/ebus-configuration/0.9.18-SNAPSHOT</bundle>
+    </feature>
+
+</features>
