@@ -5,7 +5,7 @@
 
     <groupId>org.openhab.binding.ebus</groupId>
     <artifactId>org.openhab.binding.ebus</artifactId>
-    <version>2.4.0.21</version>
+    <version>2.4.0.RC2</version>
     <packaging>kar</packaging>
 
     <organization>
