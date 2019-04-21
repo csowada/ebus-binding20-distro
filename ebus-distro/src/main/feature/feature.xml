@@ -4,9 +4,9 @@
     <feature name="ebus-binding" description="eBUS 2.0 binding incl. eBUS core libs" version="${project.version}">
         <feature>openhab-transport-serial</feature>
         <bundle start-level="80">mvn:org.openhab.binding/org.openhab.binding.ebus/2.4.0-SNAPSHOT</bundle>
-        <bundle>mvn:de.cs-dev.ebus/ebus-core/0.9.19-SNAPSHOT</bundle>
-        <bundle>mvn:de.cs-dev.ebus/ebus-configuration/0.9.19-SNAPSHOT</bundle>
-        <bundle>mvn:com.fazecast/jSerialComm/2.3.0</bundle>
+        <bundle>mvn:de.cs-dev.ebus/ebus-core/0.9.20-SNAPSHOT</bundle>
+        <bundle>mvn:de.cs-dev.ebus/ebus-configuration/0.9.20-SNAPSHOT</bundle>
+        <bundle>mvn:com.fazecast/jSerialComm/2.5.0</bundle>
     </feature>
 
 </features>
