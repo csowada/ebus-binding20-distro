@@ -2,11 +2,12 @@
 <features name="ebus-distro-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
     <feature name="ebus-binding" description="eBUS 2.0 binding incl. eBUS core libs" version="${project.version}">
+        <feature>openhab-runtime-base</feature>
         <feature>openhab-transport-serial</feature>
-        <bundle start-level="80">mvn:org.openhab.binding/org.openhab.binding.ebus/2.4.0-SNAPSHOT</bundle>
-        <bundle>mvn:de.cs-dev.ebus/ebus-core/0.9.20-SNAPSHOT</bundle>
-        <bundle>mvn:de.cs-dev.ebus/ebus-configuration/0.9.20-SNAPSHOT</bundle>
-        <bundle>mvn:com.fazecast/jSerialComm/2.5.0</bundle>
+        <bundle start-level="80">mvn:org.openhab.addons.bundles/org.openhab.binding.ebus/${ebus.binding.version}</bundle>
+        <bundle>mvn:de.cs-dev.ebus/ebus-core/${ebus.core.version}</bundle>
+        <bundle>mvn:de.cs-dev.ebus/ebus-configuration/${ebus.config.version}</bundle>
+        <bundle>mvn:com.fazecast/jSerialComm/2.5.3</bundle>
     </feature>
 
 </features>

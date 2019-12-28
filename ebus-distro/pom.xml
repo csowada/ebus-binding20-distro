@@ -1,43 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.openhab.binding.ebus</groupId>
-    <artifactId>org.openhab.binding.ebus</artifactId>
-    <version>2.4.0.RC6</version>
-    <packaging>kar</packaging>
+	<groupId>org.openhab.binding.ebus</groupId>
+	<artifactId>org.openhab.binding.ebus</artifactId>
+	<version>3.0.0</version>
+	<packaging>kar</packaging>
 
-    <organization>
-        <name>Christian Sowada</name>
-        <url>http://www.cs-dev.de</url>
-    </organization>
+	<properties>
+		<ebus.binding.version>${project.version}-SNAPSHOT</ebus.binding.version>
+		<ebus.core.version>1.0.0-SNAPSHOT</ebus.core.version>
+		<ebus.config.version>1.0.1-SNAPSHOT</ebus.config.version>
+	</properties>
 
-    <licenses>
-        <license>
-            <name>Eclipse Public License</name>
-            <url>http://www.eclipse.org/legal/epl-v10.html</url>
-        </license>
-    </licenses>
+	<organization>
+		<name>Christian Sowada</name>
+		<url>http://www.cs-dev.de</url>
+	</organization>
 
-    <developers>
-        <developer>
-            <email>git@cs-dev.de</email>
-            <name>Christian Sowada</name>
-            <url>https://github.com/csowada</url>
-            <id>csowada</id>
-        </developer>
-    </developers>
+	<licenses>
+		<license>
+			<name>Eclipse Public License</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+		</license>
+	</licenses>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.karaf.tooling</groupId>
-                <artifactId>karaf-maven-plugin</artifactId>
-                <version>4.0.0</version>
-                <extensions>true</extensions>
-            </plugin>
-        </plugins>
-    </build>
+	<developers>
+		<developer>
+			<email>git@cs-dev.de</email>
+			<name>Christian Sowada</name>
+			<url>https://github.com/csowada</url>
+			<id>csowada</id>
+		</developer>
+	</developers>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.karaf.tooling</groupId>
+				<artifactId>karaf-maven-plugin</artifactId>
+				<version>4.0.0</version>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
