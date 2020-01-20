@@ -6,13 +6,13 @@
 
 	<groupId>org.openhab.binding.ebus</groupId>
 	<artifactId>org.openhab.binding.ebus</artifactId>
-	<version>3.0.0</version>
+	<version>2.5.1-4</version>
 	<packaging>kar</packaging>
 
 	<properties>
-		<ebus.binding.version>${project.version}-SNAPSHOT</ebus.binding.version>
-		<ebus.core.version>1.0.0-SNAPSHOT</ebus.core.version>
-		<ebus.config.version>1.0.1-SNAPSHOT</ebus.config.version>
+		<ebus.binding.version>2.5.1-SNAPSHOT</ebus.binding.version>
+		<ebus.core.version>1.0.4-SNAPSHOT</ebus.core.version>
+		<ebus.config.version>1.0.4-SNAPSHOT</ebus.config.version>
 	</properties>
 
 	<organization>
